@@ -31,8 +31,8 @@
 #
 #/etc/init.d/redis_6379
 ##############################################################################
-load("//tools:workspace.bzl", "ngpaas_workspace")
-ngpaas_workspace()
+load("//tools:workspace.bzl", "ngpaas_unikernel_workspace")
+ngpaas_unikernel_workspace()
 
 
 ##############################################################################
