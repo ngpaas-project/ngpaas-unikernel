@@ -2,7 +2,7 @@
 # within the workspace (e.g. "ms/"), and ms_repo_name 
 #(e.g. "ms = ms") is the name of the local_repository rule (e.g. "@ms").
 
-def ngpaas_workspace(path_prefix = "", ngpaas_repo_name = ""):
+def ngpaas_unikernel_workspace(path_prefix = "", ngpaas_unikernel_repo_name = ""):
 #
 
   native.new_http_archive(
